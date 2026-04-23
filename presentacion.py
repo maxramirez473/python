@@ -51,7 +51,7 @@ def ejecutar_programa():
 
                 alumno = buscar_alumno(legajo)
                 if alumno.empty:
-                    print("No se encontro un alumno con ese legajo.")
+                    print("No se encontro con ese legajo.")
                 else:
                     print(alumno)
                 time.sleep(5)
