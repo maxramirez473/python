@@ -45,7 +45,7 @@ def ejecutar_programa():
                 print(alumnos)
                 time.sleep(10)
             case "2":
-                legajo = pedir_legajo("Ingrese el legajo del alumno: ")
+                legajo = pedir_legajo("Ingrese el legajo: ")
                 if legajo is None:
                     continue
 
